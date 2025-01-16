@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+#Below code is to create frontend
+
+<form action = "/add_product" method = "POST">
+    {%csrf_token%}
+    <label for ="label">Label: </label>
+    <input_id = "label" type ="text" name = "label" value = "">
+    
+    <label for ="description">Description: </label>
+    <input_id = "description" type = "text" name = "description" value = "">
+    
+    <label for ="quantity">Quantity: </label>
+    <input_id = "quanity" type ="text" name ="quantity" value = "">
+    
+    <select class = "form_control mb-4" name = "product">
+        <select an option to proceed>Select product </option>
+    </select>
+    
+    <!-- {{form}} -->
+    <input type = "submit" value = "submit">
+    
+</form>
